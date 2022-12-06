@@ -1,0 +1,97 @@
+.conteudo {
+    position: relative;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background {
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    z-index: -100;
+}
+
+.info {
+    width: 60%;
+    margin-right: 96px;
+    margin-top: 40px;
+    color: #fff;
+}
+
+@media (max-width: 1000px) {
+    .background {
+        display: none;
+    }
+    .info {
+        margin: 40px auto 0 auto;
+        width: 90%;
+    }
+}
+
+.searchBar {
+    width: 100%;
+    display: flex;
+}
+
+.searchBar Input {
+    width: 70%;
+    margin-right: 10px;
+}
+
+.searchBar Button {
+    width: 30%;
+}
+
+.perfil {
+    display: flex;
+    margin: 40px 0;
+}
+
+.profile {
+    width: 128px;
+    height: 128px;
+    border-radius: 64px;
+    border: 2px solid #E5E5E5;
+    margin-right: 32px;
+}
+
+.perfil h3 {
+    color: #999;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.perfil p, span {
+    color: #999;
+    font-size: 0.75em;
+    margin: 0;
+}
+
+.perfil span {
+    display: block;
+}
+
+.perfil p {
+    margin-top: 20px;
+}
+
+.repositorio {
+    font-size: 2em;
+    color: #fff;
+    margin: 12px 0;
+    text-align: center;
+}
+
+.errorUser {
+    color: rgb(197, 0, 0);
+    text-align: center;
+    margin-top: 16px;
+}
+
+.errorRepo {
+    color: rgb(189, 189, 0);
+    text-align: center;
+    margin-top: 16px;
+}
