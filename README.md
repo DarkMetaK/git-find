@@ -47,7 +47,6 @@ Site desenvolvido para utilização e manipulação de api com React. Através d
 ### Tecnologias
 
 [![React][React.js]][React-url]<br>
-[![JavaScript][JavaScript.js]][JavaScript-url]
 
 <p align="right">(<a href="#readme-top">Retornar ao topo</a>)</p>
 
