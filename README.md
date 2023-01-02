@@ -76,7 +76,7 @@ npm run start
 
 Matheus Porto - [LinkedIn](https://www.linkedin.com/in/matheusport0/) - matporto03@gmail.com
 
-Link Repositório: [https://github.com/DarkMetaK/clone-dio](https://github.com/DarkMetaK/git-find)
+Link Repositório: [https://github.com/DarkMetaK/git-find](https://github.com/DarkMetaK/git-find)
 
 <p align="right">(<a href="#readme-top">Retornar ao topo</a>)</p>
 
