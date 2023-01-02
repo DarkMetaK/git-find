@@ -1,71 +1,97 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
 
-## Available Scripts
+  <a href="https://github.com/DarkMetaK/git-find">
+    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Logo" width="160" height="160">
+  </a>
 
-In the project directory, you can run:
+  <h3 align="center">GitFind</h3>
 
-### `npm start`
+  <p align="center">
+    Site para buscar usuários do GitHub
+  </p>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Sumário</summary>
+  <ol>
+    <li>
+      <a href="#sobre">Sobre</a>
+      <ul>
+        <li><a href="#tecnologias">Tecnologias</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#como-rodar-o-projeto">Como rodar o projeto</a>
+    </li>
+    <li><a href="#contato">Contato</a></li>
+    <li><a href="#agradecimentos">Agradecimentos</a></li>
+  </ol>
+</details>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- ABOUT THE PROJECT -->
+## Sobre
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[![Product Name Screen Shot][product-screenshot]](https://darkmetak-gitfind.netlify.app/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Site desenvolvido para utilização e manipulação de api com React. Através da api oficial do GitHub, é realizado uma busca por nome de usuário, e retornado os repositórios públicos da conta em questão.
 
-### `npm run eject`
+### Tecnologias
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[![React][React.js]][React-url]<br>
+[![JavaScript][JavaScript.js]][JavaScript-url]
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#readme-top">Retornar ao topo</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- GETTING STARTED -->
+## Como rodar o projeto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1 - Clone o repositório
+```sh
+git clone https://github.com/DarkMetaK/clone-dio.git
+```
 
-## Learn More
+2 - Instale as dependências
+```sh
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3 - Execute o projeto
+```sh
+npm run start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">Retornar ao topo</a>)</p>
 
-### Code Splitting
+<!-- CONTACT -->
+## Contato
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Matheus Porto - [LinkedIn](https://www.linkedin.com/in/matheusport0/) - matporto03@gmail.com
 
-### Analyzing the Bundle Size
+Link Repositório: [https://github.com/DarkMetaK/clone-dio](https://github.com/DarkMetaK/git-find)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p align="right">(<a href="#readme-top">Retornar ao topo</a>)</p>
 
-### Making a Progressive Web App
+<!-- ACKNOWLEDGMENTS -->
+## Agradecimentos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+* [Img Shields](https://shields.io)
 
-### Advanced Configuration
+<p align="right">(<a href="#readme-top">Retornar ao topo</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# git-find
+<!-- MARKDOWN LINKS & IMAGES -->
+[product-screenshot]: public/template.jpg
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[JavaScript.js]: https://img.shields.io/badge/javascript-20232A.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
+[JavaScript-url]: https://www.javascript.com/
